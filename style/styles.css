@@ -361,3 +361,11 @@ body {
     text-align: center;
     justify-content: center;
 }
+
+.product-name{
+    font-size: 35;
+}
+
+.product-price{
+    font-size: 45;
+}
