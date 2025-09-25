@@ -1,42 +1,45 @@
 <!DOCTYPE html>
-<html lamg="ru">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Первая КТ</title>
-    <link rel="stylesheet" href="../style/styles.css">
+    <link rel="stylesheet" href="style/styles.css">
 </head>
 
 <body>
-    <div id="header">Хэдер</div>
-    <div id="menu">
-        <ul>
-            <li><a href="../index.html">Главная</a></li>
-            <li><a href="news.html">Новости</a></li>
-            <li><a href="practices.html">Практики</a></li>
-            <li><a href="goods.html">Товары</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-    </div>
-    <div id="goods1">
-        <img src="images/goods1.jpg" alt="не реклама 1" width="200" height="250">
-        <p class='name_product'>Вот когда вы родились, тогда и тут дата появилась</p>
-        <p class='price'>ротвА</p>
-    </div>
-        <div id="goods2">
-        <img src="images/goods2.jpg" alt="не реклама 2" width="200" height="250">
-        <p class='name_product'>Вот когда вы родились, тогда и тут дата появилась</p>
-        <p class='price'>ротвА</p>
-    </div>
-        <div id="goods3">
-        <img src="images/goods3.jpg" alt="не реклама 3" width="200" height="250">
-        <p class='name_product'>Вот когда вы родились, тогда и тут дата появилась</p>
-        <p class='price'>ротвА</p>
-    </div>
-    <div id="footer">
-        Футер
-        эхх, а мог быть хутор...
+    <div class="page-container">
+        <div class="header">Хэдер</div>
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/practices.html">Практики</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/goods.html">Товары</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1 class="afisha_product">Быстрее бери, пока не раскупили!</h1>
+            <div class="product-card">
+                <img class="product-image" src="../images/goods1.jpg" alt="Фото товара 1">
+                <h3 class="product-name">Это спасло мне руку</h3>
+                <p class="product-price">3 листа секвойи</p>
+            </div>
+            <div class="product-card">
+                <img class="product-image" src="../images/goods2.jpg" alt="Фото товара 1">
+                <h3 class="product-name">Это спасло мою жизнь</h3>
+                <p class="product-price">Без цены (сколько предложишь, столько и будет...)</p>
+            </div>
+            <div class="product-card">
+                <img class="product-image" src="../images/goods3.jpg" alt="Фото товара 1">
+                <h3 class="product-name">Это спасло мою ногу</h3>
+                <p class="product-price">5 листа для варки супа</p>
+            </div>
+        </div>
+        <div class="footer">Футер
+            эхх, а мог быть хутор... </div>
     </div>
 </body>
 
